@@ -135,6 +135,9 @@ ${description}
 Price:
 ${price}
 
+Note:
+Please paste the copied order details to messager or fblite.
+
 `;
 
     navigator.clipboard.writeText(
