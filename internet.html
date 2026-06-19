@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your Network - GelJemi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="internet.css">
+</head>
+<body>
+    <div id="networkSelectionView" class="shop-section">
+        <a href="index.html" class="back-link-btn"> ← Back to Home </a>
+        <h2 class="section-heading"> Choose your <span class="highlight">Network</span> </h2>
+        <div class="store-grid">
+            <div class="network-card card" data-network="Smart">
+                <div class="card-image-wrapper">
+                    <img src="smart.png" alt="Smart" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Smart</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="Globe">
+                <div class="card-image-wrapper">
+                    <img src="globe.png" alt="Globe" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Globe</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="DITO">
+                <div class="card-image-wrapper">
+                    <img src="dito.png" alt="DITO" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">DITO</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="TNT">
+                <div class="card-image-wrapper">
+                    <img src="tnt.png" alt="TNT" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">TNT</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="TM">
+                <div class="card-image-wrapper">
+                    <img src="tm.png" alt="TM" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">TM</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="GOMO">
+                <div class="card-image-wrapper">
+                    <img src="gomo.png" alt="GOMO" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">GOMO</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="promoListView" class="container hidden">
+        <a href="#" class="back-link-btn" onclick="showNetworks(event)"> ← Back to Networks </a>
+        <h1 class="promo-main-heading" style="text-align:center;margin-bottom:30px;"> 
+            Available <span id="networkTitleText" class="highlight"> Network </span> Promos
+        </h1>
+        <div id="dynamicPromoGrid" class="promo-grid"></div>
+    </div>
+<!-- start promo -->
+  <div id="promoDatabase" style="display:none;">
+        <div class="promo-data" data-network="Smart" data-oldprice="₱59" data-newprice="₱59">
+            <h3>POWER ALL 59</h3>
+            <p>5 GB all-access data + 3 GB 5G data + Unlimited calls and texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱99" data-newprice="₱99">
+            <h3>POWER ALL FB/TIKTOK 99</h3>
+            <p>10 GB all-access data + Unlimited Facebook or Tik Tok + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱149" data-newprice="₱149">
+            <h3>POWER ALL FB/TIKTOK 149</h3>
+            <p>16 GB all-access data + Unlimited Facebook or Tik Tok + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱449" data-newprice="₱449">
+            <h3>POWER ALL FB/TIKTOK 449</h3>
+            <p>30 GB all-access data + Unlimited Facebook or Tik Tok + Unlimited calls and texts to all networks. Valid for 28 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱99" data-newprice="₱99">
+            <h3>ALL ACCESS 99</h3>
+            <p>8 GB all-access data + Unlimited texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱99" data-newprice="₱99">
+            <h3>ALL ACCESS+99</h3>
+            <p>8 GB all-access data + Unlimited texts + Unlimited calls to Smart/TNT. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱50" data-newprice="₱50">
+            <h3>GIGA 50</h3>
+            <p>1 GB open-access data + 1 GB/day for a chosen Giga bundle (Video, Study, Games, Work, etc.). Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="Smart" data-oldprice="₱50" data-newprice="₱50">
+            <h3>ALL DATA 50</h3>
+            <p>2 GB shareable data for all sites and apps. Valid for 3 days.</p>
+        </div>
+
+        <div class="promo-data" data-network="Globe" data-oldprice="₱59" data-newprice="₱59">
+            <h3>GO 59</h3>
+            <p>5 GB all-access data + Unlimited texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱75" data-newprice="₱75">
+            <h3>GO 75</h3>
+            <p>5 GB all-access data + Unlimited calls and texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱99" data-newprice="₱99">
+            <h3>GO+99</h3>
+            <p>8 GB all-access data + 8 GB data choice of apps + 4 GB 5G data + Unlimited texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱129" data-newprice="₱129">
+            <h3>GO+129</h3>
+            <p>10 GB all-access data + 8 GB data choice of apps + 8 GB 5G data + Unlimited texts to all networks + Unlimited calls to Globe/TM. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱149" data-newprice="₱149">
+            <h3>GO+ 149</h3>
+            <p>12 GB all-access data + 8 GB data choice of apps + 8 GB 5G data + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱99" data-newprice="₱99">
+            <h3>GOEXTRA 99</h3>
+            <p>8 GB all-access data + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱109" data-newprice="₱109">
+            <h3>GOEXTRA 109</h3>
+            <p>10 GB all-access data + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱179" data-newprice="₱179">
+            <h3>GOEXTRA 179</h3>
+            <p>5 GB all-access data + Unlimited calls and texts to all networks. Valid for 15 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱199" data-newprice="₱199">
+            <h3>GOEXTRA 199</h3>
+            <p>8 GB all-access data + Unlimited calls and texts to all networks. Valid for 15 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱99" data-newprice="₱99">
+            <h3>SURF4ALL 99</h3>
+            <p>9 GB shareable data for up to 4 users. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱249" data-newprice="₱249">
+            <h3>SURF4ALL 249</h3>
+            <p>20 GB shareable data for up to 4 users. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱30" data-newprice="₱30">
+            <h3>GOUNLI 30</h3>
+            <p>Unlimited calls to Globe/TM + Unlimited texts to all networks. Valid for 1 day.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱50" data-newprice="₱50">
+            <h3>GOUNLI 50</h3>
+            <p>Unlimited calls to Globe/TM + Unlimited texts to all networks + 500 MB data. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="Globe" data-oldprice="₱95" data-newprice="₱95">
+            <h3>GOUNLI 95</h3>
+            <p>Unlimited calls and texts to all networks + 1 GB data. Valid for 7 days.</p>
+        </div>
+
+        <div class="promo-data" data-network="TNT" data-oldprice="₱50" data-newprice="₱50">
+            <h3>TIKTOK SAYA 50</h3>
+            <p>Unlimited Tik Tok + 3 GB all-access data + Unlimited calls and texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱50" data-newprice="₱50">
+            <h3>SAYA ALL 50</h3>
+            <p>2 GB all-access data + 1 GB/day for FB, Tik Tok, and ML + Unlimited calls/texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱99" data-newprice="₱99">
+            <h3>SAYA ALL 99</h3>
+            <p>7 GB open-access data + 3 GB 5G data + 10 GB for FB, TikTok, and ML + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱109" data-newprice="₱109">
+            <h3>SAYA ALL 109</h3>
+            <p>7 GB open-access data + 3 GB 5G data + Unlimited FB, Messenger, IG, Tik Tok, and ML + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱149" data-newprice="₱149">
+            <h3>SAYA ALL 149</h3>
+            <p>12 GB open-access data + 1 GB/day for FB/TikTok/ML + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱449" data-newprice="₱449">
+            <h3>SAYA ALL 449</h3>
+            <p>24 GB open-access data + 1 GB/day for FB/TikTok/ML + Unlimited calls and texts to all networks. Valid for 30 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱99" data-newprice="₱99">
+            <h3>ALL ACCESS 99</h3>
+            <p>8 GB all-access data + Unlimited texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱99" data-newprice="₱99">
+            <h3>ALL ACCESS+99</h3>
+            <p>8 GB all-access data + Unlimited texts + Unlimited calls to Smart/TNT. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱49" data-newprice="₱49">
+            <h3>SURFSAYA 49</h3>
+            <p>1 GB data + 500 MB/day for FB/Messenger + Unlimited calls/texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱50" data-newprice="₱50">
+            <h3>GIGA 50</h3>
+            <p>1 GB open-access data + 1 GB/day for Giga apps (Video, Games). Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="TNT" data-oldprice="₱50" data-newprice="₱50">
+            <h3>ALL DATA 50</h3>
+            <p>2 GB shareable open-access data. Valid for 3 days.</p>
+        </div>
+
+        <div class="promo-data" data-network="TM" data-oldprice="₱15" data-newprice="₱15">
+            <h3>FBML 15</h3>
+            <p>1 GB data for Facebook, Messenger, and Mobile Legends. Valid for 1 day.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱50" data-newprice="₱50">
+            <h3>EZ 50</h3>
+            <p>2 GB all-access data + 1 GB/day for chosen FunApp bundle + Unlimited texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱70" data-newprice="₱70">
+            <h3>EZ 70</h3>
+            <p>1 GB all-access data + 1 GB/day for choice of apps + Unlimited texts to all networks. Valid for 5 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱75" data-newprice="₱75">
+            <h3>EZ 75</h3>
+            <p>4 GB all-access data + 1 GB/day for choice of apps + Unlimited texts to all networks. Valid for 3 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱99" data-newprice="₱99">
+            <h3>EZ 99</h3>
+            <p>3 GB all-access data + 1 GB/day for choice of apps + Unlimited texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱110" data-newprice="₱110">
+            <h3>EZ 110</h3>
+            <p>4 GB all-access data + 1 GB/day for choice of apps + Unlimited texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱99" data-newprice="₱99">
+            <h3>SURF4ALL 99</h3>
+            <p>9 GB shareable data for up to 4 users/devices. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱249" data-newprice="₱249">
+            <h3>SURF4ALL 249</h3>
+            <p>20 GB shareable data for up to 4 users/devices. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱99" data-newprice="₱99">
+            <h3>ALLSURF 99</h3>
+            <p>8 GB all-access data + Unlimited texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱110" data-newprice="₱110">
+            <h3>ALLSURF 110</h3>
+            <p>8 GB all-access data + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="TM" data-oldprice="₱149" data-newprice="₱149">
+            <h3>ALLSURF 149</h3>
+            <p>12 GB all-access data + Unlimited calls and texts to all networks. Valid for 7 days.</p>
+        </div>
+
+        <div class="promo-data" data-network="DITO" data-oldprice="₱50" data-newprice="₱50">
+            <h3>DATA 50</h3>
+            <p>3 GB high-speed all-access data. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱50" data-newprice="₱50">
+            <h3>LIVE IT! 50</h3>
+            <p>3 GB all-access data + 1 GB bonus for streaming/lifestyle apps. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱50" data-newprice="₱50">
+            <h3>PLAY IT! 50</h3>
+            <p>3 GB all-access data + 1 GB bonus for gaming apps. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱50" data-newprice="₱50">
+            <h3>WORK IT! 50</h3>
+            <p>3 GB all-access data + 1 GB bonus for productivity apps. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱50" data-newprice="₱50">
+            <h3>LVLUP SOCIALS 50</h3>
+            <p>2 GB all-access data + 5 GB dedicated data for Facebook, Messenger, Instagram, and WhatsApp. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱70" data-newprice="₱70">
+            <h3>LVLUP SOCIALS 70</h3>
+            <p>4 GB all-access data + 7 GB data for social media apps. Valid for 7 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱99" data-newprice="₱99">
+            <h3>LVLUP SOCIALS 99</h3>
+            <p>7 GB all-access data + 7 GB data for social media apps + Unlimited DITO-to-DITO calls/texts. Valid for 30 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱99" data-newprice="₱99">
+            <h3>LVLUP 99 (15D)</h3>
+            <p>7 GB all-access data + Unlimited DITO calls/texts + 300 mins to other networks. Valid for 15 days.</p>
+        </div>
+        <div class="promo-data" data-network="DITO" data-oldprice="₱99" data-newprice="₱99">
+            <h3>LVLUP 99 (30D)</h3>
+            <p>7 GB all-access data + Unlimited DITO calls/texts + 300 mins to other networks. Valid for 30 days.</p>
+        </div>
+
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱149" data-newprice="₱149">
+            <h3>NOEXPIRY 149</h3>
+            <p>5 GB all-access data with no expiration date.</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱249" data-newprice="₱249">
+            <h3>NOEXPIRY 249</h3>
+            <p>15 GB all-access data with no expiration date.</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱449" data-newprice="₱449">
+            <h3>NOEXPIRY 449</h3>
+            <p>30 GB to 40 GB all-access data (varies by dynamic seasonal packaging) with no expiration date.</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱199" data-newprice="₱199">
+            <h3>UNLIDATA 199</h3>
+            <p>Unlimited all-access data for 7 days (Speed capped at 5 Mbps).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱299" data-newprice="₱299">
+            <h3>UNLIDATA 299</h3>
+            <p>Unlimited all-access data for 15 days (Speed capped at 5 Mbps).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱599" data-newprice="₱599">
+            <h3>UNLIDATA 599</h3>
+            <p>Unlimited all-access data for 30 days (Speed capped at 5 Mbps).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱799" data-newprice="₱799">
+            <h3>UNLIDATA 799</h3>
+            <p>Unlimited high-speed data for 30 days (No speed cap).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱999" data-newprice="₱999">
+            <h3>UNLIDATA 999</h3>
+            <p>Unlimited high-speed data bundle for 30 days (Includes text/call conversion points).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱1699" data-newprice="₱1699">
+            <h3>UNLIDATA 1699</h3>
+            <p>90-day Long-Term Unlimited data package (Speed capped at 5 Mbps).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱299" data-newprice="₱299">
+            <h3>UNLIFIBER 299</h3>
+            <p>7-day unlimited home fiber/broadband data via GOMO wireless routers.</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱399" data-newprice="₱399">
+            <h3>UNLIFIBER 399</h3>
+            <p>15-day unlimited home fiber/broadband data via GOMO wireless routers.</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱899" data-newprice="₱899">
+            <h3>UNLIFIBER 899</h3>
+            <p>30-day unlimited home fiber/broadband data via GOMO wireless routers (Up to 25 Mbps).</p>
+        </div>
+        <div class="promo-data" data-network="GOMO" data-oldprice="₱1199" data-newprice="₱1199">
+            <h3>UNLIFIBER 1199</h3>
+            <p>30-day premium unlimited home fiber/broadband data via GOMO wireless routers (Up to 50 Mbps).</p>
+        </div>
+    </div>
+    <!-- end -->
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Order Details Ready</h3>
+            <pre id="promoText"></pre>
+            <a href="https://m.me/gela.v.xx" target="_blank" class="messenger-btn"> Open Messenger </a>
+            <button class="close-btn" onclick="closePopup()"> Close </button>
+        </div>
+    </div>
+
+    <script src="internet.js"></script>
+</body>
+</html>

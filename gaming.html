@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your Game - GelJemi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="internet.css">
+</head>
+<body>
+
+    <div id="networkSelectionView" class="shop-section">
+        <a href="index.html" class="back-link-btn">
+            ← Back to Home
+        </a>
+        <h2 class="section-heading">
+            Choose your <span class="highlight">Game</span>
+        </h2>
+        <div class="store-grid">
+            <div class="network-card card" data-network="Mobile Legends">
+                <div class="card-image-wrapper">
+                    <img src="mlbb.png" alt="Mobile Legends" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Mobile Legends</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="promoListView" class="container hidden">
+        <a href="#" class="back-link-btn" onclick="showNetworks(event)">
+            ← Back to Games
+        </a>
+        <h1 class="promo-main-heading" style="text-align:center;margin-bottom:30px;">
+            Available <span id="networkTitleText" class="highlight">Game</span> Top-ups
+        </h1>
+        <div id="dynamicPromoGrid" class="promo-grid"></div>
+    </div>
+
+    <div id="promoDatabase" style="display:none;">
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱10" data-newprice="₱6">
+            <h3>5 Diamonds</h3>
+            <p>Direct Account Top-up. Automatic server delivery framework.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱15" data-newprice="₱11">
+            <h3>11 Diamonds</h3>
+            <p>Direct Account Top-up. Credit added instantly via Player ID & Zone ID.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱30" data-newprice="₱21">
+            <h3>22 Diamonds</h3>
+            <p>Direct Account Top-up. Automated checkout routing.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱70" data-newprice="₱50">
+            <h3>56 Diamonds</h3>
+            <p>Direct Account Top-up. Budget-friendly diamond configuration pack.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱130" data-newprice="₱98">
+            <h3>112 Diamonds</h3>
+            <p>Direct Account Top-up. Standard conversion top-up tier.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱260" data-newprice="₱195">
+            <h3>223 Diamonds</h3>
+            <p>Direct Account Top-up. Mid-tier premium currency injection.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱340" data-newprice="₱255">
+            <h3>279 Diamonds</h3>
+            <p>Direct Account Top-up. Valid for purchase of standard event packs.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱390" data-newprice="₱295">
+            <h3>336 Diamonds</h3>
+            <p>Direct Account Top-up. Unlocks multi-tier character skin offerings.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱630" data-newprice="₱490">
+            <h3>570 Diamonds</h3>
+            <p>Direct Account Top-up. Heavy credit value for major in-game draws.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱1,250" data-newprice="₱985">
+            <h3>1163 Diamonds</h3>
+            <p>Direct Account Top-up. Professional rank tier choice package.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱2,500" data-newprice="₱1980">
+            <h3>2398 Diamonds</h3>
+            <p>Direct Account Top-up. Bulk diamond volume tier configuration.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱6,000" data-newprice="₱4900">
+            <h3>6042 Diamonds</h3>
+            <p>Direct Account Top-up. Master tier bulk high-volume load deployment.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱150" data-newprice="₱97">
+            <h3>Weekly Diamond Pass</h3>
+            <p>Delivers daily diamond distributions alongside bonus reward points over a 7-day cycle.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱90" data-newprice="₱60">
+            <h3>Weekly Bundle</h3>
+            <p>7-day limited bundle package tracking event resources and small diamond pools.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱270" data-newprice="₱190">
+            <h3>Normal Starlight</h3>
+            <p>Standard Monthly Starlight Membership token. Unlocks monthly exclusive skins and basic perks.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱360" data-newprice="₱265">
+            <h3>Monthly Bundle</h3>
+            <p>Comprehensive 30-day structural progression and resources supply bundle.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱520" data-newprice="₱385">
+            <h3>Premium Starlight</h3>
+            <p>Upgraded Starlight tier. Grants instant level tiers, exclusive avatar borders, and extra cosmetics.</p>
+        </div>
+        <div class="promo-data" data-network="Mobile Legends" data-oldprice="₱650" data-newprice="₱495">
+            <h3>Twilight Pass</h3>
+            <p>Level-bound account progression path tracking premium skins and card ticket pools.</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Order Details Ready</h3>
+            <pre id="promoText"></pre>
+            <a href="https://m.me/gela.v.xx" target="_blank" class="messenger-btn">
+                Open Messenger
+            </a>
+            <button class="close-btn" onclick="closePopup()">
+                Close
+            </button>
+        </div>
+    </div>
+
+    <script src="internet.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Boosting Account - GelJemi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="internet.css">
+</head>
+<body>
+    <div id="networkSelectionView" class="shop-section">
+        <a href="index.html" class="back-link-btn">← Back to Home</a>
+        <h2 class="section-heading">
+            Choose your<span class="highlight">Social Media</span>
+        </h2>
+        <div class="store-grid">
+            <div class="network-card card" data-network="Facebook">
+                <div class="card-image-wrapper">
+                    <img src="facebook.png" alt="Facebook" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Facebook</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="Tiktok">
+                <div class="card-image-wrapper">
+                    <img src="tiktok.png" alt="Tiktok" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Tiktok</h3>
+                </div>
+            </div>
+            <div class="network-card card" data-network="Instagram">
+                <div class="card-image-wrapper">
+                    <img src="instagram.png" alt="Instagram" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Instagram</h3>
+                </div>
+            </div>
+            <!-- Others -->
+            <div class="network-card card" data-network="Others">
+                <div class="card-image-wrapper">
+                    <img src="others.png" alt="Others" class="card-img">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">Others</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="promoListView" class="container hidden">
+        <a href="#" class="back-link-btn" onclick="showNetworks(event)">← Back to Apps</a>
+        <h1 class="promo-main-heading" style="text-align:center;margin-bottom:30px;">
+            Boosting <span id="networkTitleText" class="highlight">Social Media</span> Accounts
+        </h1>
+        <div id="dynamicPromoGrid" class="promo-grid"></div>
+    </div>
+<!-- start of promo -->
+    <div id="promoDatabase" style="display:none;">
+        <div class="promo-data" data-network="Facebook" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Facebook React Post (1k)</h3>
+            <p>Provides mixed organic profile reactions (Like, Love, Care, Haha, Wow) to your target timeline post.</p>
+        </div>
+        <div class="promo-data" data-network="Facebook" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Facebook React Story (1k)</h3>
+            <p>Deploys interaction triggers over active 24h custom status frames.</p>
+        </div>
+        <div class="promo-data" data-network="Facebook" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Facebook Reel Views (1k)</h3>
+            <p>High-retention package distributing video iterations to trigger organic algorithm reach multipliers.</p>
+        </div>
+        <div class="promo-data" data-network="Facebook" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Facebook Story Views (1k)</h3>
+            <p>Pumps continuous stable real-profile counts to active story status sequences.</p>
+        </div>
+        <div class="promo-data" data-network="Facebook" data-oldprice="₱120" data-newprice="₱80" data-network="Facebook">
+            <h3>Facebook Live Views (50x)</h3>
+            <p>Keeps 50 concurrent active viewers sustained steadily in your broadcast stream for up to 30 minutes.</p>
+        </div>
+        <div class="promo-data" data-network="Facebook" data-oldprice="₱130" data-newprice="₱90" data-network="Facebook">
+            <h3>Facebook Followers (500x)</h3>
+            <p>Injects 500 permanent high-quality network followers to scale up authority visual metrics.</p>
+        </div>
+
+        <div class="promo-data" data-network="Tiktok" data-oldprice="₱60" data-newprice="₱40">
+            <h3>TikTok Likes (1k)</h3>
+            <p>Video clip likes to accelerate short-form content toward the For You Page (FYP) algorithm hooks.</p>
+        </div>
+        <div class="promo-data" data-network="Tiktok" data-oldprice="₱60" data-newprice="₱40">
+            <h3>TikTok Views (1k)</h3>
+            <p>High-speed batch injection to instantly clear basic visibility roadblocks.</p>
+        </div>
+        <div class="promo-data" data-network="Tiktok" data-oldprice="₱60" data-newprice="₱40">
+            <h3>TikTok Shares (1k)</h3>
+            <p>Distinct transmission shares to elevate organic viral replication signals.</p>
+        </div>
+        <div class="promo-data" data-network="Tiktok" data-oldprice="₱65" data-newprice="₱40">
+            <h3>TikTok Saves (1k)</h3>
+            <p>Deep bookmark parameters, heavily prioritized by contemporary ranking indexes.</p>
+        </div>
+        <div class="promo-data" data-network="Tiktok" data-oldprice="₱150" data-newprice="₱150">
+            <h3>TikTok Followers (300x)</h3>
+            <p>Secure delivery of nondrop-followers to hit creator platform tool benchmarks.</p>
+        </div>
+
+        <div class="promo-data" data-network="Instagram" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Instagram Likes (1k)</h3>
+            <p>Distributes heart likes beautifully across photos, dynamic carousels, or main feed clips.</p>
+        </div>
+        <div class="promo-data" data-network="Instagram" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Instagram Views (1k)</h3>
+            <p>View iterations targeting permanent grid videos or active Reels streams.</p>
+        </div>
+        <div class="promo-data" data-network="Instagram" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Instagram Shares (1k)</h3>
+            <p>Interactions via DM share links and user stories to ramp up algorithmic trust signals.</p>
+        </div>
+        <div class="promo-data" data-network="Instagram" data-oldprice="₱60" data-newprice="₱40">
+            <h3>Instagram Reposts (1k)</h3>
+            <p>Distinct network node repost placements to amplify wider channel visibility.</p>
+        </div>
+        <div class="promo-data" data-network="Instagram" data-oldprice="₱150" data-newprice="₱150">
+            <h3>Instagram Followers (350x)</h3>
+            <p>Adds lookalike premium followers to level up structural brand visual aesthetics.</p>
+        </div>
+        
+         <div class="promo-data" data-network="Others">
+            <h3>Looking for Others?</h3>
+            <p>Inquire now Click the buy button.</p>
+        </div>
+    </div>
+    <!-- end -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Order Details Ready</h3>
+            <pre id="promoText"></pre>
+            <a href="https://m.me/gela.v.xx" target="_blank" class="messenger-btn">Open Messenger</a>
+            <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="internet.js"></script>
+</body>
+</html>
