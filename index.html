@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GelJemi - Premium Discounted Store</title>
+  <meta name="theme-color" content="#12071f" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<!-- Loading Screen -->
+<div id="pageLoader" class="page-loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-logo-mark">GJ</div>
+    <div class="loader-logo-name">GelJemi</div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar"></div>
+    </div>
+    <p class="loader-label">Loading store...</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="brand-lockup" aria-label="GelJemi store">
+      <div class="logo-mark" aria-hidden="true">GJ</div>
+      <div>
+        <div class="logo">GelJemi</div>
+        <p class="logo-subtitle">Store</p>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a href="#" class="nav-link active" data-action="home">Home</a>
+      <a href="#items" class="nav-link" data-action="items">Items</a>
+      <a href="#promos" class="nav-link" data-action="promos">Promos</a>
+    </div>
+  </nav>
+
+  <main id="app" role="main">
+    <div id="home-view">
+      <header class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="badge">🔥 DISCOUNTED PRICES</span>
+            <h1>GelJemi<br><span class="gradient-text">Discounted Store</span></h1>
+            <p class="lead">Your premium gateway to discounted gaming top-ups, internet packages, streaming subscriptions, and premium tools.</p>
+
+            <div class="hero-buttons">
+              <button class="btn btn-primary" type="button" data-scroll-to="promos">Check Promos</button>
+              <button class="btn btn-secondary" type="button" data-scroll-to="items">Explore Items</button>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="glass-pillar pillar-1"></div>
+            <div class="glass-pillar pillar-2"></div>
+            <div class="glass-pillar pillar-3"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="portfolio-section" id="items">
+        <div class="section-header">
+          <h2>These are the items<br><span class="gradient-text">we offer</span></h2>
+        </div>
+        <div id="itemsGrid" class="cards-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="portfolio-section" id="promos">
+        <div class="section-header">
+          <h2>Hot <span class="gradient-text">Promos</span></h2>
+        </div>
+
+        <div class="promo-filters" role="toolbar" aria-label="Promo filters">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="STREAMING">Streaming</button>
+          <button class="filter-btn" type="button" data-filter="GAMING">Gaming</button>
+          <button class="filter-btn" type="button" data-filter="INTERNET">Internet</button>
+          <button class="filter-btn" type="button" data-filter="BOOSTING">Boosting</button>
+          <button class="filter-btn" type="button" data-filter="TOOLS">Tools</button>
+        </div>
+
+        <div class="promo-swipe-wrapper">
+          <div id="promosGrid" class="promos-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="extra-layer">
+        <div class="section-header">
+          <h2>Additional <span class="gradient-text">Packages</span></h2>
+        </div>
+
+        <div class="promo-filters" role="toolbar" aria-label="Additional package filters">
+          <button class="filter-btn active" type="button" data-extra-filter="all">All</button>
+          <button class="filter-btn" type="button" data-extra-filter="STREAMING">Streaming</button>
+          <button class="filter-btn" type="button" data-extra-filter="GAMING">Gaming</button>
+          <button class="filter-btn" type="button" data-extra-filter="INTERNET">Internet</button>
+          <button class="filter-btn" type="button" data-extra-filter="BOOSTING">Boosting</button>
+          <button class="filter-btn" type="button" data-extra-filter="TOOLS">Tools</button>
+        </div>
+
+        <div class="promo-swipe-wrapper">
+          <div id="extraGrid" class="promos-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </div>
+
+    <div id="category-view" class="is-hidden">
+      <section class="portfolio-section">
+        <button id="dynamic-back-btn" class="glass-back-btn" type="button" aria-label="Back to previous">← <span id="back-btn-text">Back to Home</span></button>
+
+        <div class="section-header category-heading">
+          <h2 id="selection-page-title">Choose your <span class="gradient-text" id="category-title">Platform</span></h2>
+        </div>
+
+        <div id="variant-filters" class="promo-filters variant-filters is-hidden">
+          <button class="filter-btn active" type="button" data-variant="all">All</button>
+          <button class="filter-btn" type="button" data-type="load" data-variant="REGULAR_LOAD">Regular Load</button>
+          <button class="filter-btn" type="button" data-type="load" data-variant="PROMO_LOAD">Promo Load</button>
+          <button class="filter-btn" type="button" data-type="game" data-variant="GAME_PASS">Game Pass</button>
+          <button class="filter-btn" type="button" data-type="game" data-variant="GAME_TOKEN">Game Token</button>
+        </div>
+
+        <div id="category-items-grid" class="cards-grid" aria-live="polite"></div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<!-- Order Modal -->
+<div id="orderModal" class="order-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+  <div class="order-modal-content">
+    <h2 id="orderTitle">Order Details</h2>
+    <div class="order-preview" id="orderPreview">
+      <div id="orderInfo"></div>
+      <div id="dynamicFields"></div>
+    </div>
+
+    <div class="modal-actions">
+      <button id="messengerBtn" class="messenger-btn" type="button" disabled>Copy & Open Messenger</button>
+      <button id="closeModalBtn" class="close-btn" type="button">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Scroll Highlight Blob -->
+<div id="scrollBlob" class="scroll-highlight-blob" aria-hidden="true"></div>
+
+<!-- Toast -->
+<div id="toast" class="toast" aria-live="polite" role="status"></div>
+
+<!-- Scripts -->
+<script src="data.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
