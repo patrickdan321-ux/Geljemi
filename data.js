@@ -1497,15 +1497,6 @@ window.appData.extraDatabase = [
   },
   {
     badge: "New",
-    tag: "TOOLS",
-    title: "CapCut - CapCut Premium 1 Month",
-    description: "Unlimited editing",
-    oldPrice: "₱375",
-    price: "₱249",
-    link: "https://m.me/gela.v.xx"
-  },
-  {
-    badge: "New",
     tag: "STREAMING",
     title: "Loklok - Loklok Basic Solo",
     description: "4 Devices Solo",
