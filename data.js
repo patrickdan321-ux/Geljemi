@@ -61,7 +61,7 @@ window.appData.promoDatabase = [
     title: "DITO - DATA SACHET 10",
     description: "500MB DATA FOR 1 DAY.",
     oldPrice: "₱10",
-    price: "₱10",
+    price: "₱9.80",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -69,7 +69,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "Prime Video - Prime Video Shared",
     description: "Shared Profile",
-    oldPrice: "₱15",
+    oldPrice: "₱149",
     price: "₱50",
     link: "https://m.me/gela.v.xx"
   },
@@ -78,8 +78,8 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "Zoom Pro - Zoom Pro",
     description: "7 Days Access",
-    oldPrice: "₱15",
-    price: "₱10",
+    oldPrice: "₱995",
+    price: "₱35",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -87,8 +87,8 @@ window.appData.promoDatabase = [
     tag: "INTERNET",
     title: "TM - FBML15",
     description: "1GB FB AND ML FOR 3 DAYS.",
-    oldPrice: "₱20",
-    price: "₱15",
+    oldPrice: "₱15",
+    price: "₱14.55",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -96,8 +96,8 @@ window.appData.promoDatabase = [
     tag: "INTERNET",
     title: "Globe - GO UNLI 20",
     description: "50MB + UNLI ALLNET CALLS AND TEXTS FOR 1 DAY.",
-    oldPrice: "₱25",
-    price: "₱20",
+    oldPrice: "₱20",
+    price: "₱19.40",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -105,7 +105,7 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "Canva - Canva Invite",
     description: "Own Gmail",
-    oldPrice: "₱30",
+    oldPrice: "₱299",
     price: "₱20",
     link: "https://m.me/gela.v.xx"
   },
@@ -114,7 +114,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "NBA League Pass - NBA League Pass No Warranty Shared",
     description: "Shared Account, No Warranty",
-    oldPrice: "₱30",
+    oldPrice: "₱425",
     price: "₱50",
     link: "https://m.me/gela.v.xx"
   },
@@ -123,8 +123,8 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "Picsart - Picsart Solo",
     description: "1 Device Solo",
-    oldPrice: "₱30",
-    price: "₱20",
+    oldPrice: "₱159",
+    price: "₱70",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -132,7 +132,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "HBO Max - HBO Max Shared",
     description: "1 Device Shared",
-    oldPrice: "₱40",
+    oldPrice: "₱149",
     price: "₱50",
     link: "https://m.me/gela.v.xx"
   },
@@ -141,7 +141,7 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "CapCut - CapCut Shared",
     description: "7 Days Access",
-    oldPrice: "₱50",
+    oldPrice: "₱89",
     price: "₱35",
     link: "https://m.me/gela.v.xx"
   },
@@ -150,7 +150,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "YouTube Premium - YouTube Invite",
     description: "1 Device",
-    oldPrice: "₱50",
+    oldPrice: "₱189",
     price: "₱35",
     link: "https://m.me/gela.v.xx"
   },
@@ -159,8 +159,8 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "Quizlet Plus - Quizlet Shared",
     description: "1 Device Shared",
-    oldPrice: "₱50",
-    price: "₱35",
+    oldPrice: "₱199",
+    price: "₱50",
     link: "https://m.me/gela.v.xx"
   },
   {
