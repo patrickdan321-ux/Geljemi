@@ -186,7 +186,7 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "ExpressVPN - ExpressVPN Shared",
     description: "Multiple Devices Shared",
-    oldPrice: "₱70",
+    oldPrice: "₱350",
     price: "₱45",
     link: "https://m.me/gela.v.xx"
   },
@@ -204,8 +204,8 @@ window.appData.promoDatabase = [
     tag: "INTERNET",
     title: "TNT - SURF SAYA 49",
     description: "TOTAL OF 1.2GB FOR 7 DAYS.",
-    oldPrice: "₱53",
-    price: "₱48",
+    oldPrice: "₱49",
+    price: "₱48.02",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -213,8 +213,8 @@ window.appData.promoDatabase = [
     tag: "INTERNET",
     title: "Smart - ALL DATA 50",
     description: "2GB SHAREABLE DATA FOR 3 DAYS.",
-    oldPrice: "₱55",
-    price: "₱50",
+    oldPrice: "₱50",
+    price: "₱49",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -222,7 +222,7 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "Grammarly - Grammarly Shared",
     description: "1 Device Shared",
-    oldPrice: "₱80",
+    oldPrice: "₱150",
     price: "₱55",
     link: "https://m.me/gela.v.xx"
   },
@@ -231,7 +231,7 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "QuillBot - Quillbot Shared",
     description: "1 Device Shared",
-    oldPrice: "₱90",
+    oldPrice: "₱150",
     price: "₱60",
     link: "https://m.me/gela.v.xx"
   },
@@ -240,7 +240,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "Disney+ - Disney+ Shared",
     description: "1 Device Shared",
-    oldPrice: "₱105",
+    oldPrice: "₱519",
     price: "₱50",
     link: "https://m.me/gela.v.xx"
   },
@@ -249,7 +249,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "Spotify Premium - Spotify 1 Month",
     description: "1 Month Subscription",
-    oldPrice: "₱105",
+    oldPrice: "₱169",
     price: "₱70",
     link: "https://m.me/gela.v.xx"
   },
@@ -258,7 +258,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "Loklok - Loklok Basic Shared",
     description: "1 Device Shared",
-    oldPrice: "₱120",
+    oldPrice: "₱175",
     price: "₱80",
     link: "https://m.me/gela.v.xx"
   },
@@ -267,7 +267,7 @@ window.appData.promoDatabase = [
     tag: "TOOLS",
     title: "ChatGPT Go - ChatGPT Go Shared",
     description: "1 Device Shared",
-    oldPrice: "₱120",
+    oldPrice: "₱300",
     price: "₱80",
     link: "https://m.me/gela.v.xx"
   },
@@ -276,7 +276,7 @@ window.appData.promoDatabase = [
     tag: "STREAMING",
     title: "Netflix - Netflix Shared",
     description: "1 Device Shared",
-    oldPrice: "₱150",
+    oldPrice: "₱619",
     price: "₱90",
     link: "https://m.me/gela.v.xx"
   },
@@ -285,7 +285,7 @@ window.appData.promoDatabase = [
     tag: "INTERNET",
     title: "GOMO - GOMO 149 (NO EXPIRY)",
     description: "7GB NO EXPIRY DATA + UNLI CALLS & TEXTS FOR 7 DAYS.",
-    oldPrice: "₱151.00",
+    oldPrice: "₱149.00",
     price: "₱146.00",
     link: "https://m.me/gela.v.xx"
   }
@@ -303,7 +303,7 @@ window.appData.extraDatabase = [
     tag: "GAMING",
     title: "Mobile Legends - 11 Diamonds",
     description: "Direct Account Top-up.",
-    oldPrice: "₱16",
+    oldPrice: "₱13",
     price: "₱11",
     link: "https://m.me/gela.v.xx"
   },
@@ -312,8 +312,8 @@ window.appData.extraDatabase = [
     tag: "INTERNET",
     title: "DITO - DATA SACHET 20",
     description: "2GB ALL ACCESS DATA FOR 1 DAY.",
-    oldPrice: "₱25",
-    price: "₱20",
+    oldPrice: "₱20",
+    price: "₱19.60",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -321,8 +321,8 @@ window.appData.extraDatabase = [
     tag: "INTERNET",
     title: "DITO - LEVEL-UP SOCIALS 20",
     description: "2.5GB DATA FOR 1 DAY.",
-    oldPrice: "₱25",
-    price: "₱20",
+    oldPrice: "₱20",
+    price: "₱19.60",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -330,8 +330,8 @@ window.appData.extraDatabase = [
     tag: "INTERNET",
     title: "TM - ALL-NET SURF 20",
     description: "TOTAL 600MB + UNLI ALLNET CALLS & TEXTS FOR 2 DAYS.",
-    oldPrice: "₱25",
-    price: "₱20",
+    oldPrice: "₱20",
+    price: "₱19.40",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -339,8 +339,8 @@ window.appData.extraDatabase = [
     tag: "INTERNET",
     title: "TM - BIG BENTE",
     description: "1.5GB FB, ML, & TIKTOK FOR 3 DAYS.",
-    oldPrice: "₱25",
-    price: "₱20",
+    oldPrice: "₱20",
+    price: "₱19.40",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -357,8 +357,8 @@ window.appData.extraDatabase = [
     tag: "INTERNET",
     title: "DITO - DATA SACHET 30",
     description: "3GB ALL ACCESS DATA FOR 1 DAY.",
-    oldPrice: "₱35",
-    price: "₱30",
+    oldPrice: "₱30",
+    price: "₱29.40",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -366,8 +366,8 @@ window.appData.extraDatabase = [
     tag: "INTERNET",
     title: "TM - ALL-NET SURF 30",
     description: "TOTAL 1.2GB + UNLI ALLNET CALLS & TEXTS FOR 3 DAYS.",
-    oldPrice: "₱35",
-    price: "₱30",
+    oldPrice: "₱30",
+    price: "₱29.10",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -375,7 +375,7 @@ window.appData.extraDatabase = [
     tag: "STREAMING",
     title: "Prime Video - Prime Video Solo",
     description: "1 Device Solo",
-    oldPrice: "₱45",
+    oldPrice: "₱149",
     price: "₱60",
     link: "https://m.me/gela.v.xx"
   },
@@ -384,7 +384,7 @@ window.appData.extraDatabase = [
     tag: "STREAMING",
     title: "NBA League Pass - NBA League Pass No Warranty Solo",
     description: "Solo Account, No Warranty",
-    oldPrice: "₱50",
+    oldPrice: "₱425",
     price: "₱70",
     link: "https://m.me/gela.v.xx"
   },
@@ -393,7 +393,7 @@ window.appData.extraDatabase = [
     tag: "TOOLS",
     title: "Canva - Canva Solo",
     description: "Provided Account",
-    oldPrice: "₱60",
+    oldPrice: "₱49",
     price: "₱40",
     link: "https://m.me/gela.v.xx"
   },
@@ -402,7 +402,7 @@ window.appData.extraDatabase = [
     tag: "STREAMING",
     title: "NBA League Pass - NBA League Pass Full Warranty Shared",
     description: "Shared Account, Full Warranty",
-    oldPrice: "₱60",
+    oldPrice: "₱425",
     price: "₱70",
     link: "https://m.me/gela.v.xx"
   },
@@ -411,8 +411,8 @@ window.appData.extraDatabase = [
     tag: "TOOLS",
     title: "Quizlet Plus - Quizlet Solo",
     description: "4 Devices Solo",
-    oldPrice: "₱60",
-    price: "₱40",
+    oldPrice: "₱216",
+    price: "₱50",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -447,7 +447,7 @@ window.appData.extraDatabase = [
     tag: "TOOLS",
     title: "CapCut - CapCut Solo",
     description: "7 Days Access",
-    oldPrice: "₱65",
+    oldPrice: "₱149",
     price: "₱45",
     link: "https://m.me/gela.v.xx"
   },
