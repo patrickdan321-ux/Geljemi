@@ -316,7 +316,7 @@ window.appData.extraDatabase = [
     price: "₱20",
     link: "https://m.me/gela.v.xx"
   },
-  {,
+  {
     badge: "New",
     tag: "INTERNET",
     title: "DITO - LEVEL-UP SOCIALS 20",
