@@ -4202,7 +4202,7 @@ window.appData.productVariantsDB = {
    ========================================================================= */
 
 window.appData.categoryFields = {
-  REGULAR_LOAD: ["Phone Number", "Amount (Min. 10)"],
+  REGULAR_LOAD: ["Phone Number"],
   PROMO_LOAD: ["Phone Number"],
   GAME_PASS: ["IGN", "User ID", "Server ID"],
   GAME_TOKEN: ["IGN", "User ID", "Server ID"],
