@@ -4202,16 +4202,16 @@ window.appData.productVariantsDB = {
    ========================================================================= */
 
 window.appData.categoryFields = {
-  REGULAR_LOAD: ["Phone Number"],
+  REGULAR_LOAD: ["Phone Number", "Amount (Min. 10)"],
   PROMO_LOAD: ["Phone Number"],
   GAME_PASS: ["IGN", "User ID", "Server ID"],
   GAME_TOKEN: ["IGN", "User ID", "Server ID"],
   TOOL_SUB: ["Duration"],
-  STREAM_SUB: ["Exact Device (TV, Phone,Laptop, etc.)", "Duration"],
+  STREAM_SUB: ["Exact Device (TV, Phone,Laptop, etc.)", "Duration", "Real FB Link"],
   BOOST_SUB: ["Social Media Link"],
   GAMING: ["IGN", "User ID", "Server ID"],
   INTERNET: ["Phone Number"],
-  STREAMING: ["Exact Device (TV, Phone, laptop, etc.)", "Duration", "Real FB link"],
+  STREAMING: ["Exact Device (TV, Phone, laptop, etc.)", "Duration", "Real FB Link"],
   BOOSTING: ["Social Media Link"],
   TOOLS: ["Duration"],
 };
