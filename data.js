@@ -2410,7 +2410,6 @@ window.appData.productVariantsDB = {
   {
   title: "ML15",
   description: "1GB MOBILE LEGENDS DATA FOR 3 DAYS.",
-  oldPrice: "₱25",
   price: "₱15",
   link: "https://m.me/gela.v.xx",
   tag: "PROMO_LOAD",
@@ -2418,15 +2417,13 @@ window.appData.productVariantsDB = {
 {
   title: "FB15",
   description: "1GB FACEBOOK DATA FOR 3 DAYS.",
-  oldPrice: "₱19",
   price: "₱15",
   link: "https://m.me/gela.v.xx",
   tag: "PROMO_LOAD",
 },
 {
-  title: "FBML20",
+  title: "FB+ML20",
   description: "1GB FACEBOOK + MOBILE LEGENDS DATA FOR 3 DAYS.",
-  oldPrice: "₱30",
   price: "₱20",
   link: "https://m.me/gela.v.xx",
   tag: "PROMO_LOAD",
@@ -2434,7 +2431,6 @@ window.appData.productVariantsDB = {
 {
   title: "SURF SAYA 20",
   description: "300MB OPEN ACCESS + 150MB/DAY FOR FB, ML, IG & TIKTOK + UNLI ALL-NET CALLS & TEXTS FOR 2 DAYS.",
-  oldPrice: "₱30",
   price: "₱20",
   link: "https://m.me/gela.v.xx",
   tag: "PROMO_LOAD",
@@ -2442,7 +2438,6 @@ window.appData.productVariantsDB = {
 {
   title: "SURF SAYA 30",
   description: "450MB OPEN ACCESS + 250MB/DAY FOR FB, ML, IG & TIKTOK + UNLI ALL-NET CALLS & TEXTS FOR 3 DAYS.",
-  oldPrice: "₱40",
   price: "₱30",
   link: "https://m.me/gela.v.xx",
   tag: "PROMO_LOAD",
@@ -2678,7 +2673,6 @@ window.appData.productVariantsDB = {
   {
   title: "ALLNET20",
   description: "UNLI ALL-NET CALLS + UNLI ALL-NET TEXTS FOR 1 DAY.",
-  oldPrice: "₱30",
   price: "₱20",
   link: "https://m.me/gela.v.xx",
   tag: "PROMO_LOAD",
@@ -2905,15 +2899,15 @@ window.appData.productVariantsDB = {
     {
       title: "GO UNLI 20",
       description: "50MB + UNLI ALLNET CALLS AND TEXTS FOR 1 DAY.",
-      oldPrice: "₱35",
-      price: "₱20",
+      oldPrice: "₱20",
+      price: "₱19",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
     },
     {
       title: "GO UNLI 50",
       description: "500MB + UNLI ALLNET CALLS AND TEXTS FOR 3 DAYS.",
-      oldPrice: "₱54",
+      oldPrice: "₱50",
       price: "₱49",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2921,7 +2915,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO 59",
       description: "5GB HOME DATA + UNLI ALLNET TEXTS FOR 3 DAYS.",
-      oldPrice: "₱62",
+      oldPrice: "₱59",
       price: "₱57",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2929,15 +2923,15 @@ window.appData.productVariantsDB = {
     {
       title: "GO EXTRA 59",
       description: "5GB + UNLI ALLNET CALLS AND TEXTS FOR 3 DAYS.",
-      oldPrice: "₱63",
-      price: "₱58",
+      oldPrice: "₱59",
+      price: "₱57",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
     },
     {
       title: "GO UNLI 95",
       description: "1GB + UNLI ALLNET CALLS AND TEXTS FOR 7 DAYS.",
-      oldPrice: "₱97",
+      oldPrice: "₱95",
       price: "₱92",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2945,7 +2939,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO+ 99",
       description: "TOTAL OF 20GB DATA + UNLI ALLNET TEXTS FOR 7 DAYS.",
-      oldPrice: "₱101",
+      oldPrice: "₱99",
       price: "₱96",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2953,7 +2947,7 @@ window.appData.productVariantsDB = {
     {
       title: "SURF 4 ALL 99",
       description: "9GB FOR 7 DAYS.",
-      oldPrice: "₱101",
+      oldPrice: "₱99",
       price: "₱96",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2961,15 +2955,15 @@ window.appData.productVariantsDB = {
     {
       title: "GO EXTRA 99",
       description: "12GB + UNLI ALLNET CALLS AND TEXTS FOR 7 DAYS.",
-      oldPrice: "₱102",
-      price: "₱97",
+      oldPrice: "₱99",
+      price: "₱96",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
     },
     {
       title: "GO EXTRA 109",
       description: "14GB + UNLI ALLNET CALLS AND TEXTS FOR 7 DAYS.",
-      oldPrice: "₱111",
+      oldPrice: "₱109",
       price: "₱106",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2977,7 +2971,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO+ 109",
       description: "TOTAL OF 22GB DATA + UNLI ALLNET TEXTS FOR 7 DAYS.",
-      oldPrice: "₱111",
+      oldPrice: "₱109",
       price: "₱106",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2985,7 +2979,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO+ 129",
       description: "TOTAL OF 26GB DATA + UNLI GLOBE/TM CALLS + UNLI ALLNET TEXTS FOR 7 DAYS.",
-      oldPrice: "₱130",
+      oldPrice: "₱129",
       price: "₱125",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -2993,7 +2987,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO+ 149",
       description: "TOTAL OF 28GB DATA + UNLI ALLNET CALLS & TEXTS FOR 7 DAYS.",
-      oldPrice: "₱150",
+      oldPrice: "₱149",
       price: "₱145",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -3025,7 +3019,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO EXTRA 199",
       description: "16GB + UNLI ALLNET CALLS AND TEXTS FOR 15 DAYS.",
-      oldPrice: "₱198",
+      oldPrice: "₱199",
       price: "₱193",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -3033,7 +3027,7 @@ window.appData.productVariantsDB = {
     {
       title: "SURF 4 ALL 249",
       description: "20GB FOR 7 DAYS.",
-      oldPrice: "₱247",
+      oldPrice: "₱249",
       price: "₱242",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -3041,7 +3035,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO+ 250",
       description: "TOTAL OF 30GB DATA + FREE UNLI 5G DATA FOR 15 DAYS.",
-      oldPrice: "₱248",
+      oldPrice: "₱250",
       price: "₱243",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -3049,7 +3043,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO UNLI 350",
       description: "3GB + UNLI ALLNET CALLS AND TEXTS FOR 30 DAYS.",
-      oldPrice: "₱345",
+      oldPrice: "₱350",
       price: "₱340",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
@@ -3057,7 +3051,7 @@ window.appData.productVariantsDB = {
     {
       title: "GO+ 400",
       description: "TOTAL OF 40GB DATA + FREE UNLI 5G DATA FOR 15 DAYS.",
-      oldPrice: "₱393",
+      oldPrice: "₱400",
       price: "₱388",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
