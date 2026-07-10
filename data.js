@@ -3886,9 +3886,9 @@ window.appData.productVariantsDB = {
     "Picsart": [
     {
       title: "Picsart Solo",
-      description: "1 Device Solo",
+      description: "1 Device Only for 1 Month",
       oldPrice: "₱610",
-      price: "₱80",
+      price: "₱40",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
@@ -3897,16 +3897,16 @@ window.appData.productVariantsDB = {
   "Grammarly": [
     {
       title: "Grammarly Shared",
-      description: "1 Device Shared",
-      oldPrice: "₱80",
+      description: "1 Device Only for 1 Month",
+      oldPrice: "₱399",
       price: "₱55",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
     {
       title: "Grammarly Solo",
-      description: "6 Devices Solo",
-      oldPrice: "₱105",
+      description: "6 Devices for 1 Month",
+      oldPrice: "₱399",
       price: "₱70",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
@@ -3916,16 +3916,16 @@ window.appData.productVariantsDB = {
   "QuillBot": [
     {
       title: "Quillbot Shared",
-      description: "1 Device Shared",
-      oldPrice: "₱90",
+      description: "1 Device Only for 1 Month",
+      oldPrice: "₱510",
       price: "₱60",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
     {
       title: "Quillbot Solo",
-      description: "6 Devices Solo",
-      oldPrice: "₱115",
+      description: "6 Devices for 1 Month",
+      oldPrice: "₱510",
       price: "₱75",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
@@ -3935,17 +3935,17 @@ window.appData.productVariantsDB = {
   "Quizlet Plus": [
     {
       title: "Quizlet Shared",
-      description: "1 Device Shared",
-      oldPrice: "₱50",
-      price: "₱35",
+      description: "1 Device Only for 1 Month",
+      oldPrice: "₱612",
+      price: "₱60",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
     {
       title: "Quizlet Solo",
-      description: "4 Devices Solo",
-      oldPrice: "₱60",
-      price: "₱40",
+      description: "4 Devices for 1 Month",
+      oldPrice: "₱612",
+      price: "₱90",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
@@ -3954,8 +3954,8 @@ window.appData.productVariantsDB = {
   "ChatGPT Go": [
     {
       title: "ChatGPT Go Shared",
-      description: "1 Device Shared",
-      oldPrice: "₱120",
+      description: "1 Device Only for 1 Month",
+      oldPrice: "₱300",
       price: "₱80",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
@@ -3965,16 +3965,16 @@ window.appData.productVariantsDB = {
   "ExpressVPN": [
     {
       title: "ExpressVPN Shared",
-      description: "Multiple Devices Shared",
-      oldPrice: "₱70",
+      description: "1 Device Only for 1 Month",
+      oldPrice: "₱170",
       price: "₱45",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
     {
       title: "ExpressVPN Solo",
-      description: "1 Device Solo",
-      oldPrice: "₱90",
+      description: "4 Devices for 1 Month",
+      oldPrice: "₱170",
       price: "₱60",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
@@ -3983,9 +3983,17 @@ window.appData.productVariantsDB = {
 "Zoom Pro": [
     {
       title: "Zoom Pro", 
+      description: "7 Days Access",
+      oldPrice: "₱990",
+      price: "₱50",
+      link: "https://m.me/gela.v.xx",
+      tag: "TOOL_SUB",
+    },
+   {
+      title: "Zoom Pro", 
       description: "14 Days Access",
-      oldPrice: "₱23",
-      price: "₱15",
+      oldPrice: "₱990",
+      price: "₱90",
       link: "https://m.me/gela.v.xx",
       tag: "TOOL_SUB",
     },
@@ -3995,7 +4003,7 @@ window.appData.productVariantsDB = {
     {
       title: "Spotify 1 Month",
       description: "1 Month Subscription",
-      oldPrice: "₱105",
+      oldPrice: "₱169",
       price: "₱70",
       link: "https://m.me/gela.v.xx",
       tag: "STREAM_SUB",
@@ -4003,7 +4011,7 @@ window.appData.productVariantsDB = {
     {
       title: "Spotify 2 Months",
       description: "2 Months Subscription",
-      oldPrice: "₱150",
+      oldPrice: "₱169",
       price: "₱100",
       link: "https://m.me/gela.v.xx",
       tag: "STREAM_SUB",
@@ -4011,7 +4019,7 @@ window.appData.productVariantsDB = {
     {
       title: "Spotify 3 Months",
       description: "3 Months Subscription",
-      oldPrice: "₱180",
+      oldPrice: "₱279",
       price: "₱120",
       link: "https://m.me/gela.v.xx",
       tag: "STREAM_SUB",
@@ -4203,7 +4211,7 @@ window.appData.categoryFields = {
   BOOST_SUB: ["Social Media Link"],
   GAMING: ["IGN", "User ID", "Server ID"],
   INTERNET: ["Phone Number"],
-  STREAMING: ["Exact Device (TV, Phone, laptop, etc.)", "Duration"],
+  STREAMING: ["Exact Device (TV, Phone, laptop, etc.)", "Duration", "Real FB link"],
   BOOSTING: ["Social Media Link"],
   TOOLS: ["Duration"],
 };
