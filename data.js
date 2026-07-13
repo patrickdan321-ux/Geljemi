@@ -2973,7 +2973,7 @@ window.appData.productVariantsDB = {
     {
       title: "NEW POWER ALL TIKTOK + BINGE 149 (UNLI TikTok & 5GB YT)",
       description: "UNLI TikTok + 5 GB YouTube, Viu and more + 16 GB + 5 GB 5G + Unli Calls & Texts for 7 days. Best for personal use.",
-      oldPricd: "₱149",
+      oldPrice: "₱149",
       price: "₱147",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
