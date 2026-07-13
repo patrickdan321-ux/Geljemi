@@ -1128,7 +1128,7 @@ window.appData.extraDatabase = [
     title: "Canva - Canva Lifetime",
     description: "6 Months Warranty",
     oldPrice: "₱299/month",
-    price: "₱100",
+    price: "₱120",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -1236,7 +1236,7 @@ window.appData.extraDatabase = [
     title: "Canva - Canva Lifetime",
     description: "12 Months Warranty",
     oldPrice: "₱299/month",
-    price: "₱120",
+    price: "₱150",
     link: "https://m.me/gela.v.xx"
   },
   {
