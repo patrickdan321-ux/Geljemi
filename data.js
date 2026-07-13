@@ -275,7 +275,7 @@ window.appData.promoDatabase = [
     title: "Netflix - Netflix Shared",
     description: "1 Device Shared",
     oldPrice: "₱619",
-    price: "₱90",
+    price: "₱100",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -1407,7 +1407,7 @@ window.appData.extraDatabase = [
     title: "Netflix - Netflix Solo",
     description: "2 Devices Solo",
     oldPrice: "₱619",
-    price: "₱170",
+    price: "₱190",
     link: "https://m.me/gela.v.xx"
   },
   {
@@ -3865,7 +3865,7 @@ window.appData.productVariantsDB = {
       title: "Canva Lifetime",
       description: "6 Months Warranty",
       oldPrice: "₱299/month",
-      price: "₱100",
+      price: "₱120",
       tag: "TOOL_SUB",
       link: "https://m.me/gela.v.xx",
     },
@@ -3873,7 +3873,7 @@ window.appData.productVariantsDB = {
       title: "Canva Lifetime",
       description: "12 Months Warranty",
       oldPrice: "₱299/month",
-      price: "₱120",
+      price: "₱150",
       tag: "TOOL_SUB",
       link: "https://m.me/gela.v.xx",
     },
@@ -3919,7 +3919,7 @@ window.appData.productVariantsDB = {
       title: "Netflix Shared",
       description: "1 Device Shared Profile for 1 Month",
       oldPrice: "₱619",
-      price: "₱90",
+      price: "₱100",
       link: "https://m.me/gela.v.xx",
       tag: "STREAM_SUB",
     },
@@ -3927,7 +3927,7 @@ window.appData.productVariantsDB = {
       title: "Netflix Solo",
       description: "2 Devices Solo Profile for 1 Month",
       oldPrice: "₱619",
-      price: "₱170",
+      price: "₱180",
       link: "https://m.me/gela.v.xx",
       tag: "STREAM_SUB",
     },
