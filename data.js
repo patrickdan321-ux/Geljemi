@@ -3467,8 +3467,7 @@ window.appData.productVariantsDB = {
     {
       title: "FBML15",
       description: "1GB FB AND ML FOR 3 DAYS.",
-      oldPrice: "₱20",
-      price: "₱19",
+      price: "₱15",
       link: "https://m.me/gela.v.xx",
       tag: "PROMO_LOAD",
     },
