@@ -3927,7 +3927,7 @@ window.appData.productVariantsDB = {
       title: "Netflix Solo",
       description: "2 Devices Solo Profile for 1 Month",
       oldPrice: "₱619",
-      price: "₱180",
+      price: "₱190",
       link: "https://m.me/gela.v.xx",
       tag: "STREAM_SUB",
     },
